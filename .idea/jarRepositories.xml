@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="yhtsnapshot" />
+      <option name="name" value="YHTSNAP" />
+      <option name="url" value="http://maven.yonyou.com/nexus/content/repositories/YHTCloud-Snapshot/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-restlet" />
+      <option name="name" value="Public online Restlet repository" />
+      <option name="url" value="http://maven.restlet.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="Nexus" />
+      <option name="url" value="http://maven.yonyou.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus.axiomalaska.com" />
+      <option name="name" value="nexus.axiomalaska.com" />
+      <option name="url" value="http://nexus.axiomalaska.com/nexus/content/repositories/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iuapstagings" />
+      <option name="name" value="IUAPSTAGINGS" />
+      <option name="url" value="http://maven.yonyou.com/nexus/content/repositories/iUAP-Stagings/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="thirdparty" />
+      <option name="name" value="Thirdparty" />
+      <option name="url" value="http://maven.yonyou.com/nexus/content/repositories/thirdparty/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iuapsnapshots" />
+      <option name="name" value="IUAPSNAPSHOTS" />
+      <option name="url" value="http://maven.yonyou.com/nexus/content/repositories/iUAP-Snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cent" />
+      <option name="name" value="Cent" />
+      <option name="url" value="http://repo2.maven.org/maven2/" />
+    </remote-repository>
+  </component>
+</project>
