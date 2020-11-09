@@ -18,7 +18,7 @@
 
 ​		路径为src/main/java/club/sonjong/config/SystemConfig.java
 
-​		![systemConfig](C:\Users\Gaylone\Desktop\新建文件夹\systemConfig.png)
+​		![systemConfig](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/GetDomainRecordID.png)
 
 ​		需要配置的参数请自行到腾讯云DNSpod控制台获取
 
