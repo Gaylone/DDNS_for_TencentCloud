@@ -2,8 +2,7 @@ package club.sonjong.demo;
 
 import club.sonjong.config.SystemConfig;
 import club.sonjong.utils.IPGetter;
-import club.sonjong.utils.SendEamil;
-
+import club.sonjong.utils.SendEmail;
 import javax.mail.MessagingException;
 import java.security.GeneralSecurityException;
 import java.text.SimpleDateFormat;
@@ -34,7 +33,7 @@ public class DDNS_demo {
                 if (!(newIP.equals(oldIP))) {
                     System.out.println("注意！IP发生改变！新的公网IP为"+newIP+",正在为您动态解析新IP...");
                     //不管解析结果如何都调用邮件函数提醒用户
-                    SendEamil.mailConfg(newIP+"\n"+sdf.format(new Date()));
+                    SendEmail.mailConfg(newIP+"\n"+sdf.format(new Date()));
                     System.out.println(SystemConfig.DDNS(newIP));
                     oldIP=newIP;//重新更新旧IP
                     System.out.println("当前本机IP为"+oldIP);

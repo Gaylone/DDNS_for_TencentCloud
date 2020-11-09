@@ -19,7 +19,7 @@ import com.sun.mail.util.MailSSLSocketFactory;
  * 这些参数需要填写自己对应的码
  * 本项目用qq邮箱，如果选用其他邮箱请根据对应的手册修改代码
  * **/
-public class SendEamil {
+public class SendEmail {
     private static String hostAddress="";//发送者
     private static String receiver="";//接收者
     private static String code="";//授权码
