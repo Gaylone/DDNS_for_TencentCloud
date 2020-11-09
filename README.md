@@ -13,6 +13,29 @@
 请自行安装JAVA开发环境，包括jdk1.8，IDEA等支持maven工程的编译器。推荐使用IDEA
 
 #### 参数配置：
-  
 
-​	
+​	1.动态DNS解析核心类：SystemConfig
+
+​		路径为src/main/java/club/sonjong/config/SystemConfig.java
+
+​		![systemConfig](C:\Users\Gaylone\Desktop\新建文件夹\systemConfig.png)
+
+​		需要配置的参数请自行到腾讯云DNSpod控制台获取
+
+2.部分参数获取辅助类：GetDomainRecordID
+
+​	路径为：src/main/java/club/sonjong/utils/GetDomainRecordID.java
+
+![GetDomainRecordID](C:\Users\Gaylone\Desktop\新建文件夹\GetDomainRecordID.png)
+
+​		需要配置的参数请自行到腾讯云DNSpod控制台获取
+
+3.邮件发送辅助类：SendEmail
+
+​	路径为：src/main/java/club/sonjong/utils/SendEmail.java
+
+![SendEmail](C:\Users\Gaylone\Desktop\新建文件夹\SendEmail.png)
+
+​		邮件的参数需要填自己的QQ邮箱发送令牌，去qq邮箱申请即可
+
+4.这三个类都有对于腾讯云DNSpod的API做详细解释，请留意
