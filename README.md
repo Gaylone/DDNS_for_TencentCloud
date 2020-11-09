@@ -18,7 +18,7 @@
 
 ​		路径为src/main/java/club/sonjong/config/SystemConfig.java
 
-​		![systemConfig](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/GetDomainRecordID.png)
+​		![systemConfig](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/systemConfig.png)
 
 ​		需要配置的参数请自行到腾讯云DNSpod控制台获取
 
@@ -26,7 +26,7 @@
 
 ​	路径为：src/main/java/club/sonjong/utils/GetDomainRecordID.java
 
-![GetDomainRecordID](C:\Users\Gaylone\Desktop\新建文件夹\GetDomainRecordID.png)
+![GetDomainRecordID](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/GetDomainRecordID.png)
 
 ​		需要配置的参数请自行到腾讯云DNSpod控制台获取
 
@@ -34,7 +34,7 @@
 
 ​	路径为：src/main/java/club/sonjong/utils/SendEmail.java
 
-![SendEmail](C:\Users\Gaylone\Desktop\新建文件夹\SendEmail.png)
+![SendEmail](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/SendEmail.png)
 
 ​		邮件的参数需要填自己的QQ邮箱发送令牌，去qq邮箱申请即可
 
