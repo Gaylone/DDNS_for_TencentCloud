@@ -42,3 +42,46 @@
 ​		邮件的参数需要填自己的QQ邮箱发送令牌，去qq邮箱申请即可
 
 4.这三个类都有对于腾讯云DNSpod的API做详细解释，请留意
+#### 编译成包：
+
+完成上述的参数配置，我们通过IDEA中maven工程将源码打包成jar格式的包
+
+![install](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/install.png)
+
+完成后，项目文件夹下会出现target文件夹，里面有对应的jar包
+
+![target](https://github.com/Gaylone/DDNS_for_TencentCloud/blob/main/ReadmeIMG/target.png)
+
+#### 设置开机自启
+
+可选，不过要实现动态代理果然还是需要设置成开机自启动，以Windows为例
+
+1.新建一个txt文件，输入以下内容，然后把txt后缀名改为bat
+
+```bat
+@echo "执行DDNS服务"
+java -jar F:\Dynspod\DDNS-1.0-SNAPSHOT.jar > F:\Dynspod\ContextLog.log
+```
+
+F:\Dynspod\DDNS-1.0-SNAPSHOT.jars 是刚才编译的jar绝对路径
+
+F:\Dynspod\ContextLog.log是要输出的日志文件路径（无需手动创建，每次启动都会清除上次的内容）
+
+此代码表示调用java虚拟机运行jar文件
+
+2.新建一个txt文件，输入以下内容，然后把后缀名改为vbs
+
+```vbscript
+Set ws = CreateObject("Wscript.Shell")
+ws.run "cmd /c F:\Dynspod\start.bat",0
+```
+
+F:\Dynspod\start.bat为第一步编辑的bat文件的绝对路径
+
+此代码表示在没有弹窗的情况下运行此bat文件
+
+3.然后将vbs文件放到
+
+C:\Users\XXXX\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+XXXX为你的系统账户名称
