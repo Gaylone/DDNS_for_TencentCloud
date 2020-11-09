@@ -36,9 +36,9 @@ import java.io.InputStreamReader;
  * 更多：https://www.dnspod.cn/docs/records.html#record-modify
  * **/
 public class GetDomainRecordID {
-    public static final String TokenID="177390";//tokenid
-    public static final String Token="8e63b708825d992e2f2ccb7ac5c8854c";//token
-    public static final String domain_name="sonjong.club";//我的域名
+    public static final String TokenID="";//tokenid
+    public static final String Token="";//token
+    public static final String domain_name="";//我的域名
     public static final String type="A";//记录类型
     public static String getRecordID() {
 
